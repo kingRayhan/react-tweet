@@ -1,0 +1,35 @@
+.profile-card {
+    background: #fff;
+    padding-bottom: 15px;
+    .user-cover-image {
+        height: 120px;
+        width: 100%;
+        background: #000;
+        background-size: cover;
+    }
+    .profile-picture-and-name {
+        margin-top: -12%;
+        .name {
+            p {
+                font-size: 25px;
+            }
+        }
+        .image {
+            .user-profile-picture {
+                height: 80px;
+                width: 80px;
+                background: #cdcdcd;
+                border-radius: 50%;
+            }
+        }
+    }
+    .desc {
+        font-style: italic;
+        p {
+            color: #807878;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
